@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  color: white;
+}
+section {
+  max-width: 1000px;
+  margin: auto;
+}
+.heading{
+  text-align: center;
+  font-size: 40px;
+}
+.maincard {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 18px;
+  gap: 20px;
+}
+.cardactive {
+  padding: 16px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: rgb(165 10 1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cardrecovered {
+  padding: 16px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #41be41;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cardconfirmed {
+  padding: 16px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #858535;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cardeaths {
+  padding: 16px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color:#4e4e87;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.cardupdated {
+  padding: 16px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #3d6363;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.carddelta {
+  padding: 16px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #349c9c;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.footer{
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 21px;
+}
